@@ -8,15 +8,16 @@ int player, i , j;
 player = 1;
 int block;
 printf("Two player Tic Tac Toe\n");
-printf(" 1 | 2 | 3\n");
-printf("------------\n");
-printf(" 4 | 5 | 6\n");
-printf("------------\n");
-printf(" 7 | 8 | 9\n");
+
 ln:
 //This is for player 1
 if (player == 1) {
 printf("Player 1, choose the block to put in %c: ", p1move);
+printf("\n 1 | 2 | 3\n");
+printf("------------\n");
+printf(" 4 | 5 | 6\n");
+printf("------------\n");
+printf(" 7 | 8 | 9\n");
 scanf("%d", &block);
 printf("\n");
 switch (block) {
@@ -114,6 +115,13 @@ goto ln;
 //This is for player 2
 else if(player == 2) {
     printf("Player 2, choose the block to put in %c: ", p2move);
+    
+
+printf("\n 1 | 2 | 3\n");
+printf("------------\n");
+printf(" 4 | 5 | 6\n");
+printf("------------\n");
+printf(" 7 | 8 | 9\n");
 scanf("%d", &block);
 printf("\n");
 switch (block) {
